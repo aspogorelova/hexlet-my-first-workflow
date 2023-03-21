@@ -15,3 +15,6 @@ jobs:
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
       - run: ls -la
+      - uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ gh secret set SNYK_TOKEN }}
