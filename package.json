@@ -1,0 +1,19 @@
+{
+  "name": "hexlet-my-first-workflow",
+  "version": "1.0.0",
+  "description": "[![hello-world](https://github.com/aspogorelova/hexlet-my-first-workflow/actions/workflows/hello-world.yml/badge.svg)](https://github.com/aspogorelova/hexlet-my-first-workflow/actions/workflows/hello-world.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspogorelova/hexlet-my-first-workflow.git"
+  },
+  "author": "Anna Pogorelova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspogorelova/hexlet-my-first-workflow/issues"
+  },
+  "homepage": "https://github.com/aspogorelova/hexlet-my-first-workflow#readme"
+}
