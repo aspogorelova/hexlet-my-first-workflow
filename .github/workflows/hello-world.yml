@@ -12,11 +12,11 @@ jobs:
       # экшен, выполняет какую-то задачу
       # checkout – клонирует репозиторий
       - uses: actions/checkout@v3
-      # run – произвольная bash-команда
-      # ls -la выведет содержимое текущего репозитория
-      - run: ls -la
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         env:
-          SNYK_TOKEN: ${{ SNYK_TOKEN }}
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      # run – произвольная bash-команда
+      # ls -la выведет содержимое текущего репозитория
+      - run: ls -la
